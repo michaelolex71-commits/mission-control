@@ -1,0 +1,49 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#1a1a2e"/>
+  <rect x="20" y="20" width="760" height="560" fill="#16213e" rx="8"/>
+  
+  <!-- Header -->
+  <rect x="20" y="20" width="760" height="60" fill="#0f3460" rx="8"/>
+  <text x="40" y="55" fill="#e94560" font-family="monospace" font-size="24" font-weight="bold">Mission Control Dashboard</text>
+  <text x="600" y="55" fill="#94a3b8" font-family="monospace" font-size="14">v1.0.0</text>
+  
+  <!-- Agent Cards -->
+  <rect x="40" y="100" width="230" height="120" fill="#1e3a5f" rx="6"/>
+  <text x="60" y="130" fill="#10b981" font-family="monospace" font-size="16" font-weight="bold">● OLEX</text>
+  <text x="60" y="155" fill="#94a3b8" font-family="monospace" font-size="12">Status: Active</text>
+  <text x="60" y="175" fill="#94a3b8" font-family="monospace" font-size="12">Task: Building dashboard</text>
+  <text x="60" y="195" fill="#94a3b8" font-family="monospace" font-size="12">Uptime: 4h 32m</text>
+  
+  <rect x="285" y="100" width="230" height="120" fill="#1e3a5f" rx="6"/>
+  <text x="305" y="130" fill="#fbbf24" font-family="monospace" font-size="16" font-weight="bold">● SPARKY</text>
+  <text x="305" y="155" fill="#94a3b8" font-family="monospace" font-size="12">Status: Monitoring</text>
+  <text x="305" y="175" fill="#94a3b8" font-family="monospace" font-size="12">Task: Cron jobs</text>
+  <text x="305" y="195" fill="#94a3b8" font-family="monospace" font-size="12">Uptime: 4h 32m</text>
+  
+  <rect x="530" y="100" width="230" height="120" fill="#1e3a5f" rx="6"/>
+  <text x="550" y="130" fill="#8b5cf6" font-family="monospace" font-size="16" font-weight="bold">● RUFUS</text>
+  <text x="550" y="155" fill="#94a3b8" font-family="monospace" font-size="12">Status: Standby</text>
+  <text x="550" y="175" fill="#94a3b8" font-family="monospace" font-size="12">Task: None assigned</text>
+  <text x="550" y="195" fill="#94a3b8" font-family="monospace" font-size="12">Uptime: 4h 32m</text>
+  
+  <!-- Task Queue -->
+  <rect x="40" y="240" width="475" height="200" fill="#1e3a5f" rx="6"/>
+  <text x="60" y="270" fill="#e94560" font-family="monospace" font-size="16" font-weight="bold">Task Queue</text>
+  <text x="60" y="300" fill="#10b981" font-family="monospace" font-size="12">✓ T148: Copy components</text>
+  <text x="60" y="320" fill="#10b981" font-family="monospace" font-size="12">✓ T149: Add placeholder images</text>
+  <text x="60" y="340" fill="#fbbf24" font-family="monospace" font-size="12">⏳ T150: Test deployment</text>
+  <text x="60" y="360" fill="#94a3b8" font-family="monospace" font-size="12">○ T151: Push to GitHub</text>
+  <text x="60" y="380" fill="#94a3b8" font-family="monospace" font-size="12">○ T152: Write docs</text>
+  
+  <!-- System Status -->
+  <rect x="530" y="240" width="230" height="200" fill="#1e3a5f" rx="6"/>
+  <text x="550" y="270" fill="#e94560" font-family="monospace" font-size="16" font-weight="bold">System Status</text>
+  <text x="550" y="300" fill="#10b981" font-family="monospace" font-size="12">● CPU: 23%</text>
+  <text x="550" y="320" fill="#10b981" font-family="monospace" font-size="12">● Memory: 45%</text>
+  <text x="550" y="340" fill="#10b981" font-family="monospace" font-size="12">● Disk: 62%</text>
+  <text x="550" y="360" fill="#10b981" font-family="monospace" font-size="12">● Gateway: Running</text>
+  <text x="550" y="380" fill="#10b981" font-family="monospace" font-size="12">● API: Healthy</text>
+  
+  <!-- Footer -->
+  <text x="400" y="570" fill="#64748b" font-family="monospace" font-size="12" text-anchor="middle">Replace this placeholder with actual dashboard screenshot</text>
+</svg>
